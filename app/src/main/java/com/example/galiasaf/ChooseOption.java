@@ -18,4 +18,14 @@ public class ChooseOption extends AppCompatActivity {
         Intent i= new Intent(this, MainActivity.class);
         startActivity(i);
     }
+
+    public void btnStartPlanner(View view) {
+        Intent i= new Intent(this, startPlanner.class);
+        startActivity(i);
+    }
+
+    public void btnTheme(View view) {
+        Intent i= new Intent(this, theme.class);
+        startActivity(i);
+    }
 }

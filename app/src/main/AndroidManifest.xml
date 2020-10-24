@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChooseOption"></activity>
+        <activity android:name=".preview"></activity>
+        <activity android:name=".chooseInfoAndType" />
+        <activity android:name=".chooseFont" />
+        <activity android:name=".chooseColorsAndBackgrounds" />
+        <activity android:name=".theme" />
+        <activity android:name=".startPlanner" />
+        <activity android:name=".ChooseOption" />
         <activity android:name=".SignIn" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".MainActivity">
