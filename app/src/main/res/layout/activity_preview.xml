@@ -20,14 +20,14 @@
         android:id="@+id/button13"
         android:layout_width="95dp"
         android:layout_height="48dp"
-        android:layout_marginStart="112dp"
+        android:layout_marginStart="100dp"
         android:background="#F6D3E8"
         android:onClick="btnEdit"
         android:text="edit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945" />
+        app:layout_constraintVertical_bias="0.931" />
 
     <Button
         android:id="@+id/button14"
@@ -38,6 +38,8 @@
         android:text="share me"
         app:layout_constraintBottom_toBottomOf="@+id/button13"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toEndOf="@+id/button13"
-        app:layout_constraintTop_toTopOf="@+id/button13" />
+        app:layout_constraintTop_toTopOf="@+id/button13"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
