@@ -7,6 +7,19 @@
     android:background="#F6E7DB"
     tools:context=".startPlanner">
 
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="381dp"
+        android:layout_height="27dp"
+        android:progress="30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="394dp"
@@ -18,19 +31,21 @@
         android:textColor="#675F66"
         android:textSize="65sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="283dp"
-        android:layout_height="37dp"
+        android:layout_width="328dp"
+        android:layout_height="102dp"
         android:layout_marginTop="268dp"
-        android:background="#F6D3E8"
+        android:background="#F6F2F0"
         android:onClick="btnColorsAndBackgrounds"
         android:text="Color scheme and backgrounds"
+        android:textColor="#8F7088"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.375"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,12 +53,14 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="283dp"
-        android:layout_height="37dp"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
         android:layout_marginTop="16dp"
-        android:background="#FA92D0"
+        android:background="#F6F2F0"
         android:onClick="btnInfoAndType"
         android:text="Set info and type"
+        android:textColor="#8F7088"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/button9"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button9"
@@ -51,37 +68,33 @@
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="283dp"
-        android:layout_height="37dp"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
         android:layout_marginTop="20dp"
-        android:background="#F4B2E6"
+        android:background="#F6F2F0"
         android:onClick="btnFont"
         android:text="fonts"
+        android:textColor="#8F7088"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/button10"
         app:layout_constraintStart_toStartOf="@+id/button10"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="123dp"
-        android:layout_height="64dp"
+        android:layout_width="216dp"
+        android:layout_height="84dp"
         android:background="#00BA5D5D"
         android:onClick="btnPreview"
-        android:text="done!"
-        android:textColor="#FB78EF"
-        android:textSize="36sp"
+        android:text="D O N E !"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#675F66"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949" />
+        app:layout_constraintVertical_bias="0.888" />
 
-    <ListView
-        android:layout_width="115dp"
-        android:layout_height="149dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,17 +8,32 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/button"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="60dp"
+        android:background="#F6F2F0"
+        android:onClick="btnLogin"
+        android:text="log in"
+        android:textColor="#8F7088 "
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <Button
         android:id="@+id/button2"
         android:layout_width="328dp"
         android:layout_height="52dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="60dp"
         android:background="#F6F2F0"
         android:onClick="btnSignin"
         android:text="sign in"
         android:textColor="#8F7088 "
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
@@ -37,27 +52,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button"
-        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
-        android:layout_width="328dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="64dp"
-        android:background="#F6F2F0"
-        android:onClick="btnLogin"
-        android:shadowColor="#EAE2E2"
-        android:text="log in"
-        android:textColor="#8F7088"
-        android:textColorHighlight="#F1EAEA"
-        android:textColorHint="#F4DADA"
-        android:textColorLink="#EBE5ED"
-        android:textSelectHandle="@drawable/abc_vector_test"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button3"

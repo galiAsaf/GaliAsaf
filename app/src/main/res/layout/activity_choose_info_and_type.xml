@@ -4,15 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F6E7DB"
     tools:context=".chooseInfoAndType">
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="info and type"
+        android:id="@+id/textView8"
+        android:layout_width="419dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:includeFontPadding="true"
+        android:text="I N F O   A N D   T Y P E"
+        android:textColor="#675F66"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar8"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="381dp"
+        android:layout_height="27dp"
+        android:progress="70"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <GridView
+        android:layout_width="409dp"
+        android:layout_height="412dp"
+        android:layout_marginTop="272dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
